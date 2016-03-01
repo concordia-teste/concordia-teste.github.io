@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="12px"
+   version="1.1"
+   viewBox="0 0 22 12"
+   width="22px"
+   id="svg3075"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="menu-toggle.svg">
+  <metadata
+     id="metadata3090">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="719"
+     id="namedview3088"
+     showgrid="false"
+     inkscape:zoom="45.166667"
+     inkscape:cx="11"
+     inkscape:cy="6"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3075" />
+  <title
+     id="title3077" />
+  <defs
+     id="defs3079">
+    <path
+       d="M0.500836134,0 C0.224231975,0 0,0.214035034 0,0.504684448 L0,1.49531555 C0,1.77404508 0.217741728,2 0.500836134,2 L21.4991639,2 C21.775768,2 22,1.78596497 22,1.49531555 L22,0.504684448 C22,0.225954924 21.7822583,0 21.4991639,0 L0.500836134,0 Z M0.500836134,5 C0.224231975,5 0,5.21403503 0,5.50468445 L0,6.49531555 C0,6.77404508 0.217741728,7 0.500836134,7 L21.4991639,7 C21.775768,7 22,6.78596497 22,6.49531555 L22,5.50468445 C22,5.22595492 21.7822583,5 21.4991639,5 L0.500836134,5 Z M0.500836134,10 C0.224231975,10 0,10.214035 0,10.5046844 L0,11.4953156 C0,11.7740451 0.217741728,12 0.500836134,12 L21.4991639,12 C21.775768,12 22,11.785965 22,11.4953156 L22,10.5046844 C22,10.2259549 21.7822583,10 21.4991639,10 L0.500836134,10 Z"
+       id="path-1" />
+    <filter
+       id="filter3092"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix3094"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix3096"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+  </defs>
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     id="miu"
+     stroke="none"
+     stroke-width="1"
+     style="filter:url(#filter3092)">
+    <g
+       id="editor_list_view_hambuger_menu_glyph">
+      <use
+         fill="#000000"
+         fill-rule="evenodd"
+         xlink:href="#path-1"
+         id="use3084" />
+      <use
+         fill="none"
+         xlink:href="#path-1"
+         id="use3086" />
+    </g>
+  </g>
+</svg>

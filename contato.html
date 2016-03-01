@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Contato - Home Center - Grupo Concordia</title>
+
+		<link href="css/normalize.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<header class="l-header">
+			<div class="l-container">
+				<a class="logo" href="index.html">
+					<img alt="Concordia Home Center" src="img/logo.png" />
+				</a>
+
+				<a class="menu-toggle" href="#">
+					<img alt="Menu" src="./img/menu-toggle.svg" />
+				</a>
+
+				<nav class="nav-menu">
+					<ul>
+						<li><a href="index.html">Início</a></li>
+						<li><a href="sobre.html">Empresa</a></li>
+						<li class="active-page"><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main class="l-section l-contact-area">
+			<div class="l-container">
+				<h2>Fale Conosco</h2>
+				<p>Entre em contato conosco utilizando o formulário abaixo.</p>
+
+				<div class="l-row">
+					<div class="l-col l-col-6">
+						<form class="form-contato">
+							<label for="form-nome">Nome</label>
+							<input id="form-nome" name="nome" required="required" type="text" ></input>
+
+							<label for="form-email">Email</label>
+							<input id="form-email" name="email" required="required" type="text"></input>
+
+							<label for="form-tel">Telefone</label>
+							<input id="form-tel" name="tel" required="required" type="text"></input>
+
+							<label for="form-mens">Mensagem</label>
+							<textarea id="form-mens" name="mens" required="required"></textarea>
+
+							<input class="btn" type="submit" value="Enviar"></input>
+						</form>
+					</div>
+
+					<div class="l-col l-col-6">
+						<iframe class="localizacao-empresa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7386.266036840544!2d-53.34009626455466!3d-22.235031299999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x948e7cdcc24a2d0b%3A0x50aede6b87d9b51f!2sConc%C3%B3rida+Home+Center!5e0!3m2!1spt-BR!2sbr!4v1447676438346" style="border:0" allowfullscreen="" frameborder="0" height="300" width="100%"></iframe>
+
+						<h4>Concordia Home Center</h4>
+						<ul class="info-contato">
+							<li>Telefone: (67) 3441-1619</li>
+							<li>Email: contato@grupoconcordia.com.br</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="l-footer">
+			<div class="l-container">
+				<div class="l-row">
+					<div class="l-col l-col-9">
+						<span>Copyright &copy; 2016 | Todos os direitos reservados | Desenvolvido por <a href="https://github.com/jvitorf">J. Vitor Flores</a></span>
+					</div>
+
+					<div class="l-col l-col-3">
+						<span class="pull-right">(67) 3441-1619</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/menu.js"></script>
+	</body>
+</html>
