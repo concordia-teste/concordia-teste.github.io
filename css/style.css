@@ -435,7 +435,8 @@ img {
 	.nav-menu ul li {
 		height: 65px;
 		margin: 0;
-		padding: 15px 0 15px 20px;
+		padding: 15px 0 15px 0;
+		margin-left: 20px;
 	}
 
 	.nav-menu ul li {
